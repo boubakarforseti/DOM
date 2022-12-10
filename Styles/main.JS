@@ -1,4 +1,4 @@
-// fonction button less
+// function less
 var lessbuttons = document.getElementsByClassName("Less");
 console.log(lessbuttons);
 
@@ -18,20 +18,23 @@ for (const button of lessbuttons) {
         }
     })
 }
-// Fonction du button plus
+
+
+//function plus
 var plusbuttons = document.getElementsByClassName("Plus");
 console.log(plusbuttons);
 
 for (const button of plusbuttons) {
     console.log(button);
     button.addEventListener('click', () =>{
-        var nextElementValue = button.previousElementSibling.value
+        var previousElementValue = button.previousElementSibling.value
 
-        var intVal = parseInt(previousElementSibling)
+        var intVal = parseInt(previousElementValue)
         console.log(intVal);
 
-        
+        var newVal=intVal + 1;
         button.previousElementSibling.value= newVal;
+        
     })
 }
 
