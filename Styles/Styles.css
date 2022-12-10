@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+
+h1 { 
+    font: 4em roboto slab;
+}
+h2 { 
+    font: 3,5em roboto slab;
+}
+h3 { 
+    font: 3em roboto slab;
+}
+h4 { 
+    font: 2,5em roboto slab;
+}
+h5 { 
+    font: 2em roboto slab;
+}
+h6 { 
+    font: 1,5em roboto slab;
+}
+p { 
+    font: 1em roboto slab;
+}
+strong {
+    font: roboto slab;
+}
+input{
+    font: roboto slab;
+}
+form{
+    font: roboto slab;
+}
+label{
+    font: roboto slab;
+}
+h1{color: #764ABC;
+
+}
+h2{
+    color: #764ABC;
+}
+h3 {color: #764ABC;
+}
+h4 {
+  color: #ffffff;
+}
+h5{
+    color:000000
+}
+
+h6{
+    color: #764ABC;
+}
+p{
+    color: #000000;
+    font-stretch: condensed;
+    font-size: smaller;
+} 
+
+.Box {
+    display: flex;
+    justify-content: space-between;
+    padding: 0%;
+    
+    }
+
+.left-box{
+width:30%;
+}
+
+.rigth-box{
+    width: 50%;
+    justify-content: center;
+}
+
+
+
+
+.Red-Card-BMW{
+display: inline-block;
+margin:0px;
+padding: 0%;
+}
+
+
+.White-Card-BMW{
+display: inline-block;
+margin: auto;   
+}
+
+
+.right-box{
+padding-left: 10%;
+}
+.Presentation{
+    display: block;
+    padding-left: 5%;
+    padding-right: 10%;
+    padding-right: 0%;
+}
+.Cars-interior-exterior{
+padding-left: 20%;
+padding-right: 5%;
+justify-content: center;
+}

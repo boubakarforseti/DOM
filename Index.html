@@ -8,95 +8,81 @@
     <title> DOM CheckPoint </title>
 </head>
 <body>
-    <!-- Titre de Gauche-->
-<div class=Checkout>
+    <!-- header-->
+<div class=header; style="background-color:black">
 <img src="BMW_White_Logo.svg" alt="BMW logo">
- <h1>CheckPoint DOM</h1>
+ <h2 style="color:764ABC ;">CheckPoint DOM</h2>
  <hr>
  </div>
 
  <!--Commande BMW X6 xDrive30d -->
- <div class="titre de la commande"></div>
- <h2>Commande de votre plat</h2>
- <p>Passez votre commande en selectionnant le plat et la quantité</p>
+ <div class="titre-de-la commande"></div>
+    <h2>Commandez de votre voiture !</h2>
+    <p><bold>Passez votre commande en selectionnant le plat et la quantité</bold></p>
 </div>
-<!-- Red Car-->
-<div class="Red-Card-BMW">
-    <img src="X6 Red.png" alt="BMW Doree">
-    <h3>BMW X6 xDrive30d Rouge</h3>
-    <div class="Price">
-        <p>XOF 13 000 000</p>
-    </div>
-    <div class="button">
-        <div class="button">
-            <button>
-                Plus
-            </button>
+<!-- Boxes-->
+<div class="Box">
+    <div class="left-box">
+        <div class="Red-Card-BMW">
+            <img src="cosySec (11).jpeg" width="250px" alt="Red BMW">
+            <div class="price-1" style="display:flex ;">
+                <h6>BMW X2 xDrive30d Silver</h6>
+                <h6 style="color:#000000 ;">XOF 13 000 000</h6>
+            </div>
+            <div class="stock-1" style="display:flex ;">
+                <h6>in stock</h6>
+                <input class="Less" type="text" value="-">
+                <input value="1">
+                <input class="Plus" type="text" value="+">
+            </div>
         </div>
-        <div class="button-moins">
-        <button>
-            Moins
-        </button>
+    <!--White Car-->
+        <div class="White-Card-BMW">
+            <img src="cosySec (12).jpeg" width="250px" alt="White BMW">
+            <div class="price-2" style="display:flex ;">
+                <h6>BMW X2 xDrive30d Grey</h6>
+                <h6 style="color:#000000 ;">XOF 11 500 000</h6>
+            </div>
+            <div class="stock-2" style="display:flex ;">
+                <h6>in stock</h6>
+                <input class="Less" type="text" value="-">
+                <input value="1">
+                <input class="Plus" type="text" value="+">
+            </div>
         </div>
-    </div>
-    <h4>in stock</h4>
-</div>
-<!--White Car-->
-<div class="White-Card-BMW">
-    <img src="White X6.png" alt="White BMW">
-    <h3>BMW X6 xDrive30d White</h3>
-    <div class="Price">
-        <p>XOF 11 500 000</p>
-    </div>
-    <div class="button">
-        <div class="button">
-            <button>
-                Plus
-            </button>
-        </div>
-        <div class="button-moins">
-        <button>
-            Moins
-        </button>
-        </div>
-    </div>
-    <h4>in stock</h4>
-</div>
-<!--Black Car-->
-<div class="Black-Card-BMW">
-    <img src="Black X6.png" alt=" Black BMW">
-    <h3>BMW X6 xDrive30d Black</h3>
-    <div class="Price">
-        <p>XOF 11 500 000</p>
-    </div>
-    <div class="button">
-        <div class="button">
-            <button>
-                Plus
-            </button>
-        </div>
-        <div class="button-moins">
-        <button>
-            Moins
-        </button>
+    <!--Black Car-->
+        <div class="Black-Card-BMW" style="visibility: hidden;">
+            <img src="cosySec (9).jpeg" width="250px" alt=" Black BMW">
+            <div class="Price-3">
+                <h6 style="color:#764ABC"> BMW X2 xDrive30d Black</h6>
+                <h6 style="color:black;">XOF 11 500 000</h6>
+            </div>
+            <div class="stock-3">
+                <h6>in stock</h6>
+                <input class="Less" type="text" value="-">
+                <input value="1">
+                <input class="Plus" type="text" value="+">
+            </div>
         </div>
     </div>
-    <h4>in stock</h4>
-</div>
-<!--Valeur ajoutee de la BMW-->
-<div class="Presentation">
-    <img src="bmw-x6-2020-26.png" alt="BMW nouveau model">
-   <div class="purpose-1">
-    <p> A partir de </p>
-    <h2>10 000 0000</h2>
-   </div>
-   <div class="purpose-1">
-    <p> A partir de </p>
-    <h2>10 000 0000</h2>
-   </div><div class="purpose-1">
-    <p> A partir de </p>
-    <h2>10 000 0000</h2>
-   </div>
 
+<!--Valeur ajoutee de la BMW-->
+    <div class="right-box">
+        <div class="Presentation" style="align-content:center; justify-content: space-around;">
+            <img src="cosySec (9) 1.png" width="800px" alt="BMW nouveau model">
+        </div>
+        <div class="Cars-interior-exterior">
+            <img src="cosySec (4).jpeg" width="15%" alt="Interieur-1">
+            <img src="cosySec (7).jpeg" width="15%" alt="Vue-3">
+            <img src="cosySec (5).jpeg" width="15%" alt="Interieur-2">
+            <img src="cosySec (8).jpeg" width="15%" alt="Vue-2">
+            <img src="cosySec (4).jpeg" width="15%" alt="Interieur-1">
+           
+        </div>
+
+    </div>
 </div>
+
+
+<script src="Styles/main.JS"> </script>
 </body>
