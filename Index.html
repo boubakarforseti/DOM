@@ -17,8 +17,8 @@
 
  <!--Commande BMW X6 xDrive30d -->
  <div class="titre-de-la commande"></div>
-    <h2>Commandez de votre voiture !</h2>
-    <p><bold>Passez votre commande en selectionnant le plat et la quantité</bold></p>
+    <h2>Commandez votre voiture !</h2>
+    <p><bold>Passez votre commande <br>en selectionnant pour chaque voiture le nombre souhaitée</bold></p>
 </div>
 <!-- Boxes-->
 <div class="Box">
@@ -27,11 +27,12 @@
             <img src="cosySec (11).jpeg" width="250px" alt="Red BMW">
             <div class="price-1" style="display:flex ;">
                 <h6>BMW X2 xDrive30d Silver</h6>
-                <h6 style="color:#000000 ;">XOF 13 000 000</h6>
+                <h6 style="color:#000000 ;">XOF 12 500 000</h6>
+                <button class="remove"> <img src="trash.png" width=10px weigth="10px"></button>
             </div>
-            <div class="stock-1" style="display:flex ;">
+            <div class="stock-1" style="display:flex; ">
                 <h6>in stock</h6>
-                <button class="Less" type="text" value="-">-</button>
+                <button class="Less" type="text" value="-" style="border-radius: 80px ; " >-</button>
                 <input value="1">
                 <button class="Plus" type="text" value="+">+</button>
             </div>
@@ -41,7 +42,8 @@
             <img src="cosySec (12).jpeg" width="250px" alt="White BMW">
             <div class="price-2" style="display:flex ;">
                 <h6>BMW X2 xDrive30d Grey</h6>
-                <h6 style="color:#000000 ;">XOF 11 500 000</h6>
+                <h6 style="color:#000000 ;">XOF 12 500 000</h6>
+                <button class="remove"> <img src="trash.png" width=10px weigth="10px"></button>
             </div>
             <div class="stock-2" style="display:flex ;">
                 <h6>in stock</h6>
@@ -49,6 +51,11 @@
                 <input value="1">
                 <button class="Plus" type="text" value="+">+</button>
             </div>
+        </div>
+     <!-- Total motant-->
+        <div class="car-price">
+            <label for="total">Total</label>
+            <input type="text" id="total" autocomplete="off" required value="">
         </div>
     <!--Black Car-->
         <div class="Black-Card-BMW" style="visibility: hidden;">
@@ -69,7 +76,7 @@
 <!--Valeur ajoutee de la BMW-->
     <div class="right-box">
         <div class="Presentation" style="align-content:center; justify-content: space-around;">
-            <img src="cosySec (9) 1.png" width="800px" alt="BMW nouveau model">
+            <img src="cosySec (9) 1.png" width="500px" alt="BMW nouveau model">
         </div>
         <div class="Cars-interior-exterior">
             <img src="cosySec (4).jpeg" width="15%" alt="Interieur-1">

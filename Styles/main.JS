@@ -11,7 +11,7 @@ for (const button of lessbuttons) {
         console.log(intVal);
 
         if (intVal>0) {
-            var newVal= intVal-1;
+            var newVal= intVal-1 ;
             console.log(newVal);
     
             button.nextElementSibling.value= newVal;
@@ -32,12 +32,17 @@ for (const button of plusbuttons) {
         var intVal = parseInt(previousElementValue)
         console.log(intVal);
 
-        var newVal=intVal + 1;
+        var newVal=intVal + 1 ;
         button.previousElementSibling.value= newVal;
         
     })
+     
 }
 
+// car price
+var total = document.getElementsByClassName("total");
+var totalval= newVal*11500000;
+console.log(total);
 
 
-
+// Remove element
