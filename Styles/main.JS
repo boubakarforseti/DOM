@@ -41,8 +41,19 @@ for (const button of plusbuttons) {
 
 // car price
 var total = document.getElementsByClassName("total");
+var previousElementValue = button.previousElementSibling.value
+
 var totalval= newVal*11500000;
 console.log(total);
 
 
 // Remove element
+var selectorByClassName=document.querySelector('White-Card-BMW')
+var parent =document.getElementByClassName ('White-Card-BMW')
+
+  var buttonRemove = document.getElementByClassName('Remove')
+
+  buttonRemove.addEventListener ("Click", Remove)
+  function Remove (){
+        selectorByClassName.parentElement.remove
+  }
