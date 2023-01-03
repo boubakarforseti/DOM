@@ -174,3 +174,22 @@ column-gap: 10px;
     height:30px;
   }
  
+.like{
+color: #ffffff;
+background-color: #000000;
+transform: click;
+transition: transform 50ms;
+animation: click ;
+
+}
+
+.like:hover{
+background-color: red;
+}
+
+.like:active{
+background-color: red;
+}
+.like:on-click {
+background-color: red;
+}

@@ -41,7 +41,7 @@ for (const button of plusbuttons) {
 
 // car price
 var total = document.getElementsByClassName("total");
-var previousElementValue = button.previousElementSibling.value
+
 
 var totalval= newVal*11500000;
 console.log(total);
